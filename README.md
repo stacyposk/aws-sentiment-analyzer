@@ -1,6 +1,3 @@
-# aws-sentiment-analyzer
-AWS AI Project with AWS Comprehend, S3, Lambda, QuickSight
-
 # Sentiment Analyzer on AWS
 
 Analyze customer review CSV files with real-time sentiment and entity detection using Amazon Comprehend.
