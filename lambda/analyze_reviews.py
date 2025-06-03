@@ -7,7 +7,7 @@ s3 = boto3.client('s3')
 comprehend = boto3.client('comprehend')
 
 # Replace with your actual values
-S3_BUCKET_NAME = "stacy-comprehend-demo"
+S3_BUCKET_NAME = " "
 COMPREHEND_ROLE_ARN = " "
 
 def lambda_handler(event, context):
