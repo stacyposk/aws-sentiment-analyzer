@@ -18,7 +18,7 @@ Analyze customer review CSV files with real-time sentiment and entity detection 
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. Upload a CSV file to `s3://input-bucket/reviews.csv`
 2. An S3 event triggers a Lambda function written in Python
@@ -28,7 +28,7 @@ Analyze customer review CSV files with real-time sentiment and entity detection 
 
 ---
 
-## 📸 Demo Screenshots
+## Demo Screenshots
 
 > _Coming soon — Screenshots will be added to show:_
 - S3 file upload
