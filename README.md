@@ -1,5 +1,6 @@
 # Sentiment Analyzer on AWS
 Analyze customer feedback at scale with real-time sentiment and entity detection using AWS services.
+
 ![AWS](https://img.shields.io/badge/Powered%20by-AWS-yellow?style=flat&logo=amazonaws)
 ![Comprehend](https://img.shields.io/badge/Service-Amazon%20Comprehend-orange)
 ![Quicksight](https://img.shields.io/badge/Visualization-QuickSight-blue)
