@@ -21,14 +21,14 @@ This project demonstrates an event-driven AI pipeline on AWS that:
 
 ## Architecture
 
-### ![AWS-Powered Sentiment Analysis Pipeline](screenshots/0_AWS_Comprehend_Sentiment_Analysis_Architecture_Overview.png)
+### ![AWS-Powered Sentiment Analysis Pipeline](screenshots/0_AWS_Comprehend_Sentiment_Analysis_Architecture_Overview.jpg)
 
 - **Amazon S3**: Uploads batch of 100 customer review CSV files
 - **AWS Lambda**: Triggered by S3 `ObjectCreated` event
 - **Amazon Comprehend**: Performs sentiment and entity detection on each review
 - **S3**: Stores the results in a designated output folder
 - **Amazon QuickSight**: Visualizes sentiment distribution and entity frequency
-- Built fully on AWS Free Tier (Comprehend, Lambda, S3, QuickSight)
+- Built fully on AWS Free Tier (S3, Lambda, Comprehend, QuickSight)
 
 ---
 
