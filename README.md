@@ -21,6 +21,8 @@ This project demonstrates an event-driven AI pipeline on AWS that:
 
 ## Architecture
 
+### ![AWS-Powered Sentiment Analysis Pipeline](screenshots/0_AWS_Comprehend_Sentiment_Analysis_Architecture_Overview.png)
+
 - **Amazon S3**: Uploads batch of 100 customer review CSV files
 - **AWS Lambda**: Triggered by S3 `ObjectCreated` event
 - **Amazon Comprehend**: Performs sentiment and entity detection on each review
@@ -58,30 +60,37 @@ This project demonstrates an event-driven AI pipeline on AWS that:
 
 ### 1. S3 File Upload
 ![S3 File Upload](screenshots/1_S3_File_Upload.png)
+
 A CSV file containing customer reviews is uploaded to the `input/` folder in the S3 bucket, which triggers the analysis workflow.
 
 ### 2A. Lambda Function Diagram
 ![Lambda Function Diagram](screenshots/2A_Lambda_Function_Diagram.png)
+
 The AWS Lambda function `trigger-comprehend-analysis` is automatically invoked by the S3 `ObjectCreated` event.
 
 ### 2B. CloudWatch Metrics
 ![CloudWatch Metrics](screenshots/2B_CloudWatch_Metrics.png)
+
 CloudWatch metrics confirm successful Lambda execution, showing 100% success rate and low average duration.
 
 ### 3A. S3 Output Folder View
 ![S3 Output Folders](screenshots/3A_S3_Output_Folders.png)
+
 After analysis, results are saved to the `output/` bucket, organized into separate folders by task (e.g., sentiment, entity, pii).
 
 ### 3B. Output File in Sentiment Folder
 ![S3 Output File](screenshots/3B_S3_Output_File.png)
+
 Each processed file is saved with a unique folder name under `output/sentiment/`, containing the CSV result of sentiment scores.
 
 ### 4A. QuickSight Sentiment Dashboard
 ![QuickSight Sentiment Dashboard](screenshots/4A_QuickSight_Sentiment_Dashboard.png)
+
 A QuickSight dashboard visualizes the sentiment breakdown (positive, negative, mixed) and confidence scores for each prediction.
 
 ### 4B. QuickSight Entity Dashboard
 ![QuickSight Entity Dashboard](screenshots/4B_QuickSight_Entity_Dashboard.png)
+
 Entity analysis shows the top-mentioned brands and products from customer reviews, along with their sentiment distributions.
 
 ---
