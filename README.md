@@ -56,26 +56,26 @@ This project demonstrates an event-driven AI pipeline on AWS that:
 
 ## Demo Screenshots
 
-### 📁 1. S3 File Upload
-![S3 File Upload](screenshots/1_S3 File Upload.png)
+### 1. S3 File Upload
+![S3 File Upload](screenshots/1_S3_File_Upload.png)
 
-### ⚙️ 2A. Lambda Function Diagram
-![Lambda Function Diagram](screenshots/2A_Lambda Function Diagram.png)
+### 2A. Lambda Function Diagram
+![Lambda Function Diagram](screenshots/2A_Lambda_Function_Diagram.png)
 
-### 📊 2B. CloudWatch Metrics
-![CloudWatch Metrics](screenshots/2B_CloudWatch Metrics.png)
+### 2B. CloudWatch Metrics
+![CloudWatch Metrics](screenshots/2B_CloudWatch_Metrics.png)
 
-### 📂 3A. S3 Output Folder View
-![S3 Output Folders](screenshots/3A_S3 Output Folders.png)
+### 3A. S3 Output Folder View
+![S3 Output Folders](screenshots/3A_S3_Output_Folders.png)
 
-### 📄 3B. Output File in Sentiment Folder
-![S3 Output File](screenshots/3B_S3 Output File.png)
+### 3B. Output File in Sentiment Folder
+![S3 Output File](screenshots/3B_S3_Output_File.png)
 
-### 📈 4A. QuickSight Sentiment Dashboard
-![QuickSight Sentiment Dashboard](screenshots/4A_QuickSight Sentiment Dashboard.png)
+### 4A. QuickSight Sentiment Dashboard
+![QuickSight Sentiment Dashboard](screenshots/4A_QuickSight_Sentiment_Dashboard.png)
 
-### 🧠 4B. QuickSight Entity Dashboard
-![QuickSight Entity Dashboard](screenshots/4B_QuickSight Entity Dashboard.png)
+### 4B. QuickSight Entity Dashboard
+![QuickSight Entity Dashboard](screenshots/4B_QuickSight_Entity_Dashboard.png)
 
 ---
 
